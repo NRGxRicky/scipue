@@ -1,0 +1,295 @@
+--- UNIQUE IMAGES ---
+_assets/media/b7454b1d8b2e85e142f45167c2d19fa9.png
+_assets/media/ae40d88f4c2847f47ea4a9de47ba0b84.png
+_assets/fonts/54002518d276276ab4c30c523b0f4ad3.woff2
+_assets/fonts/f8f199f09526f79e87644ed227e0f651.woff2
+_assets/media/4de3297230969f7c9d02878b1134b6aa.png
+_assets/media/9e1276634823fbdeb2f1e4ecab60a6dd.png
+_assets/media/d070574421d064f48cad7c8db577ff45.png
+_assets/media/cfd37c06b45ea8defd664c0bbde13d76.png
+_assets/media/7b0a3ccceed45564a5ba936680b1ee65.png
+_assets/media/188a9130f706f7fcaeb8626e3128eaaa.png
+_assets/media/68b9a9ca86731a00b540ae8e68951374.png
+_assets/fonts/de86b04784f3b95af7d8da93dbe52f4f.woff
+_assets/media/7b2977b3227492abb67f61c2e38e5257.png
+_assets/fonts/8125c12d1461933da1c494a4e68f7010.otf
+_assets/fonts/4de29305db46625343735e840e3d27aa.otf
+_assets/media/d00bdaaa4ff6f2ec903017eb1617ca3f.png
+_assets/fonts/eee19014dcc33cef9c0083fe0e1bfa42.otf
+_assets/media/0ddfdad830135f44684a2f3c6c95f374.png
+_assets/media/ab7a7f0e637e9a161c9aa2df2bcf1495.png
+_assets/fonts/8db6873543b01fce50e8a48e460ab570.woff2
+_assets/media/f1bbb47e758181dfbdd6432566980f79.png
+_assets/media/4dac2cd716007b2de2301efb1cf54399.png
+_assets/media/31dca9434cfe98633d98c8cfc2a80863.png
+_assets/fonts/79e80ffd3f2e1f2996a3b24464f1ac7a.otf
+_assets/fonts/00458bdd1b60781dae58dcf970c97ceb.woff2
+_assets/media/e82c479fc21540c16cd008b41d7bfedc.png
+_assets/media/0d297428a2fe24cf9d956b5d54de25b8.png
+_assets/media/239d04578edad83c04a08b576cb9beb5.png
+_assets/fonts/36c73fe47b79def54b2d911f1f099217.woff
+_assets/media/b5e344a25d3d7b986b94188204345375.png
+_assets/media/5ed6dfb6e1f91eb7559fedde766b2fcb.png
+_assets/media/be491c9f342400714fcf91f7c59acc60.png
+_assets/media/c660fa19bfc2bb7e894358d2dfdd43f3.png
+_assets/media/a9165f42762ad6353cc81ed9716d0572.png
+_assets/media/b70c438fa4c0d9f84a71c6a7eb4bd953.png
+_assets/media/272fcbefd7c0214587e585823c008d48.png
+_assets/fonts/7310ff74f87442f43d6f73a71afb085d.woff2
+_assets/media/279dca28bc53f9b3a08e7b5305cbb10e.png
+_assets/media/f77afa3e8b58687ef7876d79cc7a15b6.png
+_assets/media/cb0041b7962e77a1dc13ea0c8fc0f686.png
+_assets/media/1ea2041c021c61ac07455694a640d21f.png
+_assets/media/7dca1c7d2dcac1fc8b884fcda9f1508c.png
+_assets/media/f46fda5b84567fa1e263d7acdb59d18f.svg
+_assets/fonts/ed2c7a309dd9dd466543f68dbb1412ba.woff
+_assets/media/1aefad297251148fe80ab88dc1d67b48.png
+_assets/media/f8247acae2920dc809d21831f0623edb.png
+_assets/media/3e70e8e93b771646130a732ede1ca400.png
+_assets/media/8a03f587136e8c4db1a0633be99797f4.png
+_assets/fonts/ac9b8a560f98d1757a4565a2419d33c3.woff
+_assets/media/1f2341011dcd79ad5e6b60491e6bbe11.png
+_assets/fonts/50c40a40fbf9e7982a3e806a2b03cb12.woff
+_assets/media/705460e43cfa78ec5b5dadf583100e91.png
+_assets/fonts/39727737f0b19191983e73de027d151a.otf
+_assets/media/8874e78ecbdf488b47f6971e64727f59.png
+_assets/media/0a8e8183c185b9bbbc26f74729e44e30.png
+_assets/media/d18241bffb747a6598056de61f904840.png
+_assets/media/8748faf4dfe3b513183f026bc66b5f11.png
+_assets/media/9c06542753f8e315bb9b15dbc5c7b5e4.png
+_assets/media/772ab9a483712e86ae1068815cdeaa77.png
+_assets/fonts/d257a7100844bc3f98c9021168b6249e.woff2
+_assets/media/814bceb1d55f1b2a6dcb73858859388c.png
+_assets/media/7576df040bc713a8d8776e7265553e0b.png
+_assets/media/e98e5d7e5434cf9cfb4c369bfabf8806.png
+_assets/media/98d6b3dad468ba5859a0b58d3e4b2593.png
+_assets/fonts/daee28464eba92254cb149feea6599e3.otf
+_assets/fonts/0bb563f2f60ffd4e62b64cb021c33776.otf
+_assets/media/126dcb3d14c5acd5cc6b973eae505b78.png
+_assets/media/78b54ea18e6787bf96cacade45103aad.png
+_assets/media/e9f29324d2bf3c751a3d5d055b101e5f.png
+_assets/fonts/fcdc70957f5496663ff81317bcf49ddf.otf
+_assets/media/3f642e9f5fcea5cef6923ca195b1c15c.png
+_assets/fonts/7fc2786f9023d4d812357cb787e9ad4b.woff
+_assets/media/06cbb04c6a0ae538ae9fc200bfd711da.png
+_assets/media/030cf524f647fefa4233c93cbac24588.png
+_assets/media/e8d4d5df33de8c94031723bc19d95540.png
+_assets/media/7352cd8da476affa4eabecfb266e5195.png
+_assets/media/52d9f31e4ba303367975bf6a6bb951ed.png
+_assets/media/47f2fd7fa3d2f734f502dcc01c670b35.png
+_assets/fonts/cd51f2d8116c91ad0f63800235235e11.woff2
+_assets/media/3c46606a4851f407aab7465b8ff989a2.png
+_assets/media/9e32cfbd85d2244d5ccb1e259e16fbb0.png
+https://wa.me/5212282206491
+_assets/fonts/79d14bb61301a10c73c6cb293c29b309.otf
+_assets/fonts/9fd726aeae98b22824f0dc8947036e77.woff
+_assets/media/4f6a61c9b7e803cf79249fab9b042d1d.png
+_assets/media/d77605d1c3a9989526abdeeb5b600874.png
+_assets/fonts/98c4d2c0223fc8474641c77f923528e9.woff2
+_assets/media/03d13056132d20a23529b4056565c31f.png
+_assets/fonts/fccd23b5f57baaa123b25ab5a500aac8.woff
+_assets/media/6cc78e15c02e4b7c3a21431cbc9c2176.png
+_assets/media/2159453c2e5be8fb01460def75da95cf.png
+_assets/media/a81fbee437484bb524dc7030a411d488.png
+_assets/media/e883365c5dc6f103ba4505a619d36a58.png
+_assets/fonts/4ff8a742aa834e35f10ead140b735c45.woff
+_assets/fonts/1060345c54d396e76d73f1da7ee200bd.woff2
+_assets/media/3caddc98bf98d85025ee5213ba2e15f1.png
+_assets/media/69e0d18be34f06f6f4a01afd2e297b8b.png
+
+--- TEXT BLOCKS ---
+[page/A/B]: TAGcbLa0hys
+
+[page/A/A[0]/Z]: TAGcbLa0hys
+
+[page/A/A[0]/t[0]/G]: EAGGJApdnA8
+
+[page/A/A[0]/t[0]/D/K/A[1]]: #ffffff
+
+[page/A/A[0]/t[0]/E[0]/a/B/A]: MAG0a8DPWMk
+
+[page/A/A[0]/t[0]/E[0]/a/B/I]: MAG0bKopc6A
+
+[page/A/A[0]/t[0]/E[1]/a/B/A]: MAG0awV7_ro
+
+[page/A/A[0]/t[0]/E[2]/a/B/A]: MAG0axqePxg
+
+[page/A/A[0]/t[0]/E[3]/a/B/A]: MAG0ayDf77s
+
+[page/A/A[0]/t[0]/E[4]/a/B/A]: MAG0bMv09bQ
+
+[page/A/A[0]/t[0]/E[5]/a/B/A]: MAG0bEOFFwA
+
+[page/A/A[0]/t[0]/E[6]/a/B/A]: MAG0bH_HgnA
+
+[page/A/A[0]/t[0]/E[7]/a/B/A]: MAG0bAReWX8
+
+[page/A/A[0]/t[0]/E[8]/a/B/A]: MAG0bNLrffU
+
+[page/A/A[0]/t[0]/E[9]/a/B/A]: MAG0bED2Fc0
+
+[page/A/A[0]/t[0]/E[10]/a/B/A]: MAG0bGiAaNI
+
+[page/A/A[0]/t[0]/E[11]/a/B/A]: MAG0bBG8gII
+
+[page/A/A[0]/t[0]/E[12]/a/B/A]: MAG0bPSx-RU
+
+[page/A/A[0]/t[0]/E[13]/a/B/A]: MAG0bIFMmRU
+
+[page/A/A[0]/t[0]/E[14]/a/B/A]: MAG0bEp39do
+
+[page/A/A[0]/t[0]/E[15]/a/B/A]: MAG0bBviC_c
+
+[page/A/A[0]/t[0]/E[16]/a/B/A]: MAG0bANnCE4
+
+[page/A/A[0]/t[0]/E[17]/a/B/A]: MAG0bbm3nOs
+
+[page/A/A[0]/t[0]/E[18]/a/B/A]: MAG0bdAEod0
+
+[page/A/A[0]/t[0]/E[19]/a/B/A]: MAG0bj5NjeQ
+
+[page/A/A[0]/t[0]/E[20]/a/A[0]]: Hoy SCI, antes SEIR AutomatizaciÃ³n de Puebla, somos una empresa especializada en soluciones industriales.
+
+
+
+[page/A/A[0]/t[0]/E[21]/a/A[0]]: Servicios
+
+
+[page/A/A[0]/t[0]/E[22]/a/A[0]]: inicio
+
+
+[page/A/A[0]/t[0]/E[23]/a/A[0]]: construcciÃ³n
+
+
+[page/A/A[0]/t[0]/E[24]/a/A[0]]: contacto
+
+
+[page/A/A[0]/t[0]/E[25]/a/A[0]]: nuestros clientes
+
+
+[page/A/A[0]/t[0]/E[26]/a/A[0]]: proyectos@scipue.com
+
+
+[page/A/A[0]/t[1]/G]: EAGGJApdnA8
+
+[page/A/A[0]/t[1]/D/K/A[0]]: #a6a6a6
+
+[page/A/A[0]/t[1]/D/K/A[1]]: #ffffff
+
+[page/A/A[0]/t[1]/E[0]/a/B/A]: MAG0awV7_ro
+
+[page/A/A[0]/t[1]/E[1]/a/B/A]: MAG0bAGmoK0
+
+[page/A/A[0]/t[1]/E[2]/a/B/A]: MAG0bHLE4x8
+
+[page/A/A[0]/t[1]/E[3]/a/B/A]: MAG0bDclNOM
+
+[page/A/A[0]/t[1]/E[4]/a/B/A]: MAG0bI2KT4M
+
+[page/A/A[0]/t[1]/E[5]/a/B/A]: MAG0bGv5rE4
+
+[page/A/A[0]/t[1]/E[6]/a/B/A]: MAG0bJgTJ0E
+
+[page/A/A[0]/t[1]/E[7]/a/B/A]: MAG0bDOfhY0
+
+[page/A/A[0]/t[1]/E[8]/a/B/A]: MAG0bAMV8iM
+
+[page/A/A[0]/t[1]/E[9]/a/B/A]: MAG0bJ-11n0
+
+[page/A/A[0]/t[1]/E[10]/a/B/A]: MAG0eshkJ_I
+
+[page/A/A[0]/t[2]/G]: EAGGJApdnA8
+
+[page/A/A[0]/t[2]/D/K/A[1]]: #ffffff
+
+[page/A/A[0]/t[2]/E[0]/a/B/A]: MAG0bb77JKI
+
+[page/A/A[0]/t[2]/E[1]/a/B/A]: MAG0bbH-WkM
+
+[page/A/A[0]/t[2]/E[2]/a/B/A]: MAG0bb6ED58
+
+[page/A/A[0]/t[2]/E[3]/a/B/A]: MAG0bZVPbHs
+
+[page/A/A[0]/t[2]/E[4]/a/B/A]: MAG0bT4Fqqk
+
+[page/A/A[0]/t[2]/E[5]/a/B/A]: MAG0bRvamtw
+
+[page/A/A[0]/t[2]/E[6]/a/B/A]: MAG0bXFfPG8
+
+[page/A/A[0]/t[2]/E[7]/a/B/A]: MAG0bYNk9_4
+
+[page/A/A[0]/t[2]/E[8]/a/B/A]: MAG0awV7_ro
+
+[page/A/A[0]/t[3]/G]: EAGGJApdnA8
+
+[page/A/A[0]/t[3]/E[0]/a/B/A]: MAG0bOOVW5c
+
+[page/A/A[0]/t[3]/E[1]/a/B/A]: MAG0bGrv5Ak
+
+[page/A/A[0]/t[3]/E[2]/a/B/A]: MAG0bB8GEkM
+
+[page/A/A[0]/t[3]/E[3]/a/B/A]: MAG0bBLlO1E
+
+[page/A/A[0]/t[3]/E[4]/a/B/A]: MAG0bNozcec
+
+[page/A/A[0]/t[3]/E[5]/a/B/A]: MAG0bK2LGzY
+
+[page/A/A[0]/t[3]/E[6]/a/B/A]: MAG0bBn4SH4
+
+[page/A/A[0]/t[3]/E[7]/a/A[0]]: Servicios de construcciÃ³n 
+
+
+[page/A/A[0]/t[3]/E[8]/a/B/A]: MAG0awV7_ro
+
+[page/A/A[0]/t[4]/G]: EAGGJApdnA8
+
+[page/A/A[0]/t[4]/E[0]/a/B/A]: MAEb4gQnL8Y
+
+[page/A/A[0]/t[4]/E[1]/b[0]]: M0 0H64V64H0z
+
+[page/A/A[0]/t[4]/E[1]/f[0]/A/A[0]]: proyectos@scipue.com
+
+
+[page/A/A[0]/t[4]/E[2]/b[0]]: M470.64,423.58c12.65,0,23-10.35,23-23V18.74c0-12.65-10.13-20.86-22.5-18.25l-455,95.97  C3.76,99.07-2.94,110.97,1.25,122.91l97.84,278.96c4.19,11.94,17.96,21.7,30.61,21.7L470.64,423.58L470.64,423.58z
+
+[page/A/A[0]/t[4]/E[3]/b[0]]: M470.64,423.58c12.65,0,23-10.35,23-23V18.74c0-12.65-10.13-20.86-22.5-18.25l-455,95.97  C3.76,99.07-2.94,110.97,1.25,122.91l97.84,278.96c4.19,11.94,17.96,21.7,30.61,21.7L470.64,423.58L470.64,423.58z
+
+[page/A/A[0]/t[4]/E[4]/a/B/A]: MAG0bKeP8Yw
+
+[page/A/A[0]/t[4]/E[5]/a/B/A]: MAG0bBrxhts
+
+[page/A/A[0]/t[4]/E[6]/a/B/A]: MAG0awV7_ro
+
+[page/A/A[0]/t[4]/E[7]/a/B/A]: MAG0awV7_ro
+
+[page/A/A[0]/t[4]/E[8]/a/B/A]: MAG0bfwNI4Y
+
+[page/A/A[0]/t[4]/E[9]/a/B/A]: MAG0bgNXWFY
+
+[page/A/A[0]/t[4]/E[10]/a/B/A]: MAG0bnHN6xQ
+
+[page/A/A[0]/t[4]/E[11]/a/B/A]: MAG0bi1FHVU
+
+[page/A/A[0]/t[4]/E[12]/a/A[0]]: ESTAMOS PARA SERVIRTE EN NUESTROS MEDIOS DE CONTACTO
+
+
+
+[page/A/A[0]/t[4]/E[13]/a/A[0]]: Â¡CONTACTANOS AHORA Y VUELVE REALIDAD ESE PROYECTO SOÃADO!
+
+
+[page/Z/K]: MAG0ehTYMhQ
+
+[page/Z/L]: MAG0eqCv4pw
+
+[page/Z/f]: YAFcf6CtJfI-0
+
+[page/B[0]]: YACgEZ1cb1Q
+
+[page/B[1]]: YAFcf6CtJfI
+
+[page/B[2]]: YAFdJkvp3-k
+
+[page/B[3]]: YAGyDvJ_4Ts
+
+[page/K]: YAFcf6CtJfI-0
+

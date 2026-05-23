@@ -1,0 +1,102 @@
+---
+---
+
+<header class="fixed top-0 left-0 w-full z-50 transition-all duration-300 glass border-b border-white/5">
+  <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+    
+    <!-- Logo area -->
+    <a href="#inicio" class="flex items-center gap-3 group">
+      <div class="relative w-10 h-10 flex items-center justify-center rounded-lg bg-slate-900 border border-slate-700/50 group-hover:border-brand-blue/50 transition-all">
+        <span class="text-xl font-bold font-display text-white group-hover:text-brand-blue transition-colors">S</span>
+        <span class="absolute top-0 right-0 w-2 h-2 bg-brand-blue rounded-full"></span>
+      </div>
+      <div class="flex flex-col">
+        <span class="text-lg font-bold font-display text-white tracking-wide leading-none">SCI</span>
+        <span class="text-[10px] text-slate-400 font-sans tracking-widest mt-1 uppercase">Soluciones Industriales</span>
+      </div>
+    </a>
+
+    <!-- Desktop Navigation Links -->
+    <nav class="hidden md:flex items-center gap-8">
+      <a href="#inicio" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Inicio</a>
+      <a href="#servicios" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Servicios</a>
+      <a href="#construccion" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Construcción</a>
+      <a href="#clientes" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Clientes</a>
+      <a href="#contacto" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Contacto</a>
+    </nav>
+
+    <!-- Desktop Action Buttons -->
+    <div class="hidden md:flex items-center gap-4">
+      <a 
+        href="https://wa.me/5212282206491" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="inline-flex items-center justify-center px-4 py-2 text-xs font-semibold rounded-lg bg-brand-blue text-white hover:bg-brand-blue-hover active:scale-95 transition-all gap-1.5"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.035-4.22c1.661.989 3.275 1.562 4.957 1.563 5.514 0 10.002-4.494 10.005-10.011.002-2.673-1.03-5.184-2.906-7.06C16.271 2.395 13.766 1.36 11.1 1.36 5.589 1.36 1.1 5.85 1.096 11.368c-.001 1.76.474 3.42 1.378 4.908l-.995 3.637 3.737-.981-.129-.153z"/>
+        </svg>
+        <span>WhatsApp</span>
+      </a>
+    </div>
+
+    <!-- Mobile menu toggle -->
+    <button id="mobile-menu-btn" class="md:hidden p-2 text-slate-400 hover:text-white transition-colors" aria-label="Toggle Menu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile Navigation Panel -->
+  <div id="mobile-menu" class="hidden md:hidden glass border-t border-white/5 absolute top-20 left-0 w-full flex flex-col py-6 px-6 gap-4">
+    <a href="#inicio" class="text-base font-medium text-slate-300 hover:text-white transition-colors py-2 mobile-link">Inicio</a>
+    <a href="#servicios" class="text-base font-medium text-slate-300 hover:text-white transition-colors py-2 mobile-link">Servicios</a>
+    <a href="#construccion" class="text-base font-medium text-slate-300 hover:text-white transition-colors py-2 mobile-link">Construcción</a>
+    <a href="#clientes" class="text-base font-medium text-slate-300 hover:text-white transition-colors py-2 mobile-link">Clientes</a>
+    <a href="#contacto" class="text-base font-medium text-slate-300 hover:text-white transition-colors py-2 mobile-link">Contacto</a>
+    <hr class="border-white/5 my-2" />
+    <a 
+      href="https://wa.me/5212282206491" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="inline-flex items-center justify-center w-full py-3 text-sm font-semibold rounded-lg bg-brand-blue text-white hover:bg-brand-blue-hover transition-all gap-2"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.035-4.22c1.661.989 3.275 1.562 4.957 1.563 5.514 0 10.002-4.494 10.005-10.011.002-2.673-1.03-5.184-2.906-7.06C16.271 2.395 13.766 1.36 11.1 1.36 5.589 1.36 1.1 5.85 1.096 11.368c-.001 1.76.474 3.42 1.378 4.908l-.995 3.637 3.737-.981-.129-.153z"/>
+      </svg>
+      <span>Contactar por WhatsApp</span>
+    </a>
+  </div>
+</header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  const links = document.querySelectorAll('.mobile-link');
+
+  if (btn && menu) {
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+
+    links.forEach(link => {
+      link.addEventListener('click', () => {
+        menu.classList.add('hidden');
+      });
+    });
+  }
+
+  // Scroll Header background change
+  window.addEventListener('scroll', () => {
+    const header = document.querySelector('header');
+    if (header) {
+      if (window.scrollY > 50) {
+        header.classList.add('py-2', 'bg-slate-950/95', 'shadow-lg');
+        header.classList.remove('py-0');
+      } else {
+        header.classList.remove('py-2', 'bg-slate-950/95', 'shadow-lg');
+      }
+    }
+  });
+</script>

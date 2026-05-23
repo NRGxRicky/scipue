@@ -1,0 +1,118 @@
+---
+const projects = [
+  {
+    title: "Estructuras Metálicas y Naves",
+    category: "Obra Estructural",
+    img: "/assets/e82c479fc21540c16cd008b41d7bfedc.png",
+    description: "Diseño, fabricación y montaje de estructuras de acero y naves industriales a gran escala."
+  },
+  {
+    title: "Cimentaciones Especiales",
+    category: "Obra Civil",
+    img: "/assets/2159453c2e5be8fb01460def75da95cf.png",
+    description: "Cimentación para maquinaria pesada, zapatas estructurales y muros de contención."
+  },
+  {
+    title: "Edificaciones y Oficinas",
+    category: "Edificación",
+    img: "/assets/4dac2cd716007b2de2301efb1cf54399.png",
+    description: "Construcción y adecuación de espacios corporativos, casetas de control y áreas comunes."
+  },
+  {
+    title: "Techumbres y Cubiertas",
+    category: "Acabados",
+    img: "/assets/b5e344a25d3d7b986b94188204345375.png",
+    description: "Suministro e instalación de láminas traslúcidas, termoacústicas y sistemas de desagüe pluvial."
+  },
+  {
+    title: "Mantenimiento Estructural",
+    category: "Mantenimiento",
+    img: "/assets/f8247acae2920dc809d21831f0623edb.png",
+    description: "Refuerzo de columnas, aplicación de pintura intumescente y reparación de estructuras metálicas."
+  },
+  {
+    title: "Pisos de Concreto Industrial",
+    category: "Pisos",
+    img: "/assets/9c06542753f8e315bb9b15dbc5c7b5e4.png",
+    description: "Colado de pisos de concreto de alta resistencia con acabados pulidos y epóxicos."
+  },
+  {
+    title: "Supervisión y Control de Obra",
+    category: "Ingeniería",
+    img: "/assets/272fcbefd7c0214587e585823c008d48.png",
+    description: "Control de calidad en obra civil, levantamientos y apego a bitácoras de construcción."
+  }
+];
+---
+
+<section id="construccion" class="py-24 bg-slate-950 relative overflow-hidden">
+  
+  <!-- Subtle line divider -->
+  <div class="absolute left-0 right-0 top-0 h-[1px] bg-white/5"></div>
+  
+  <div class="max-w-7xl mx-auto px-6 relative z-10">
+    
+    <!-- Section Header -->
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+      <div class="max-w-2xl text-left">
+        <h2 class="text-xs font-semibold text-brand-blue uppercase tracking-widest mb-3">Infraestructura</h2>
+        <h3 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-4 font-display">
+          Servicios de Construcción Industrial
+        </h3>
+        <div class="w-12 h-0.5 bg-brand-blue mb-6"></div>
+        <p class="text-slate-400 font-sans text-sm leading-relaxed">
+          Diseñamos y edificamos espacios robustos, seguros y adaptados a las exigencias operativas de la manufactura y la logística industrial moderna.
+        </p>
+      </div>
+      <div class="mt-6 md:mt-0">
+        <a 
+          href="#contacto" 
+          class="inline-flex items-center justify-center px-5 py-3 text-xs font-semibold rounded-lg bg-brand-blue text-white hover:bg-brand-blue-hover active:scale-95 transition-all gap-1.5 cursor-pointer"
+        >
+          <span>Cotizar Proyecto</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Bento/Portfolio Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {projects.map((project, index) => {
+        const isFeatured = index === 0 || index === 4;
+        return (
+          <div class={`group relative rounded-xl bg-slate-900 border border-slate-800/80 overflow-hidden hover:border-brand-blue/30 transition-all duration-500 flex flex-col justify-between ${isFeatured ? 'lg:col-span-2' : ''}`}>
+            
+            <div class="relative w-full aspect-video md:aspect-[2/1] overflow-hidden flex-grow border-b border-white/5">
+              <div class="absolute inset-0 bg-slate-950/40 z-10 group-hover:bg-slate-950/20 transition-all duration-500"></div>
+              
+              <!-- Category tag -->
+              <span class="absolute top-4 left-4 z-20 px-2.5 py-1 text-[9px] font-semibold tracking-wider rounded bg-slate-950/90 border border-brand-blue/20 text-blue-300 uppercase font-sans">
+                {project.category}
+              </span>
+              
+              <img 
+                src={project.img} 
+                alt={project.title} 
+                class="w-full h-full object-cover group-hover:scale-[1.01] transition-all duration-700 mix-blend-luminosity group-hover:mix-blend-normal"
+              />
+            </div>
+
+            <!-- Content Area -->
+            <div class="p-6 bg-slate-900 text-left">
+              <h4 class="text-base font-bold text-white group-hover:text-brand-blue transition-colors duration-300 mb-2 font-display">
+                {project.title}
+              </h4>
+              <p class="text-[11px] text-slate-400 font-sans leading-relaxed">
+                {project.description}
+              </p>
+            </div>
+            
+          </div>
+        );
+      })}
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,224 @@
+Number of page groups: 1
+
+================ PAGE GROUP 0 ================ 
+ID: PBNGCwFjplrVf92h, Name/Title: SCI Servicios y Comercializacion Industrial AyG
+Number of slides/sections: 5
+
+--- Section 0 (Slide ID: PBsCFTCMjllpS15P, Page Num: 0) ---
+Number of elements: 27
+  [Elem 0] (LBWDtl3GV3NdPjQr):
+    - Text: MAG0a8DPWMk | MAG0bKopc6A
+    - Image ID: MAG0a8DPWMk
+  [Elem 1] (LB3zXqwbrQfY6vWh):
+    - Text: MAG0awV7_ro
+    - Image ID: MAG0awV7_ro
+    - Link: https://wa.me/5212282206491
+  [Elem 2] (LBscKJr5WM9Tqv7r):
+    - Text: MAG0axqePxg
+    - Image ID: MAG0axqePxg
+  [Elem 3] (LBF69rWgBzzgfZjp):
+    - Text: MAG0ayDf77s
+    - Image ID: MAG0ayDf77s
+  [Elem 4] (LBYRK2CMNlCbZdV4):
+    - Text: MAG0bMv09bQ
+    - Image ID: MAG0bMv09bQ
+  [Elem 5] (LBQkx800Z06PJwxD):
+    - Text: MAG0bEOFFwA
+    - Image ID: MAG0bEOFFwA
+  [Elem 6] (LBqfGb12ZXjGLY0t):
+    - Text: MAG0bH_HgnA
+    - Image ID: MAG0bH_HgnA
+  [Elem 7] (LBgYSw7743HPzf7d):
+    - Text: MAG0bAReWX8
+    - Image ID: MAG0bAReWX8
+  [Elem 8] (LBr3YmScWbVQgVpV):
+    - Text: MAG0bNLrffU
+    - Image ID: MAG0bNLrffU
+  [Elem 9] (LBSWs0LgjnLM9mzx):
+    - Text: MAG0bED2Fc0
+    - Image ID: MAG0bED2Fc0
+  [Elem 10] (LByJnSlLVxSdZvZj):
+    - Text: MAG0bGiAaNI
+    - Image ID: MAG0bGiAaNI
+  [Elem 11] (LBVmN1ygkNbFwYzw):
+    - Text: MAG0bBG8gII
+    - Image ID: MAG0bBG8gII
+  [Elem 12] (LBR033DvqjZmTppN):
+    - Text: MAG0bPSx-RU
+    - Image ID: MAG0bPSx-RU
+  [Elem 13] (LB7grJJ5bXC4wtvz):
+    - Text: MAG0bIFMmRU
+    - Image ID: MAG0bIFMmRU
+  [Elem 14] (LBcc6qwH48GlJnpJ):
+    - Text: MAG0bEp39do
+    - Image ID: MAG0bEp39do
+  [Elem 15] (LBp2ZwF3jt96Wb6q):
+    - Text: MAG0bBviC_c
+    - Image ID: MAG0bBviC_c
+  [Elem 16] (LBd8q9jqXvc61CJS):
+    - Text: MAG0bANnCE4
+    - Image ID: MAG0bANnCE4
+  [Elem 17] (LBhP4wvxBQFCglKC):
+    - Text: MAG0bbm3nOs
+    - Image ID: MAG0bbm3nOs
+  [Elem 18] (LBw2ZLRC0FMx5rN2):
+    - Text: MAG0bdAEod0
+    - Image ID: MAG0bdAEod0
+  [Elem 19] (LB987jJxsc31QgrT):
+    - Text: MAG0bj5NjeQ
+    - Image ID: MAG0bj5NjeQ
+  [subtitle] (LBy4h5FXsbQ7Fvhk):
+    - Text: Hoy SCI, antes SEIR AutomatizaciÃ³n de Puebla, somos una empresa especializada en soluciones industriales.
+  [pretitle] (LB6d5N0cdCjXmWmS):
+    - Text: Servicios
+  [pretitle] (LBJd0rNTlJ18gTQk):
+    - Text: inicio
+  [pretitle] (LBKrV7HlMllYFZsP):
+    - Text: construcciÃ³n
+  [pretitle] (LB3Zz05TWCgphXzY):
+    - Text: contacto
+  [Elem 25] (LBp86029rDVvhd54):
+    - Text: nuestros clientes
+  [Elem 26] (LBmc08GgwklFCDnr):
+    - Text: proyectos@scipue.com
+
+--- Section 1 (Slide ID: PBvB1kv2122Xjmnw, Page Num: 1) ---
+Number of elements: 11
+  [Elem 0] (LBdkn3whf5bWCQ6W):
+    - Text: MAG0awV7_ro
+    - Image ID: MAG0awV7_ro
+    - Link: https://wa.me/5212282206491
+  [Elem 1] (LBHYTYtZRplj4KL7):
+    - Text: MAG0bAGmoK0
+    - Image ID: MAG0bAGmoK0
+  [Elem 2] (LBx8wYXKtK1JGfPg):
+    - Text: MAG0bHLE4x8
+    - Image ID: MAG0bHLE4x8
+  [Elem 3] (LBmXzrfZvs68jT3x):
+    - Text: MAG0bDclNOM
+    - Image ID: MAG0bDclNOM
+  [Elem 4] (LB0xCyzMllKXkyD5):
+    - Text: MAG0bI2KT4M
+    - Image ID: MAG0bI2KT4M
+  [Elem 5] (LBtvDTDCsRwwLF8T):
+    - Text: MAG0bGv5rE4
+    - Image ID: MAG0bGv5rE4
+  [Elem 6] (LBJXkH8rQXP2nHNz):
+    - Text: MAG0bJgTJ0E
+    - Image ID: MAG0bJgTJ0E
+  [Elem 7] (LB7YscfBkdz4nQjj):
+    - Text: MAG0bDOfhY0
+    - Image ID: MAG0bDOfhY0
+  [Elem 8] (LB6gyzLN3rTlVpPF):
+    - Text: MAG0bAMV8iM
+    - Image ID: MAG0bAMV8iM
+  [Elem 9] (LBgZSzTsvR9wTg7b):
+    - Text: MAG0bJ-11n0
+    - Image ID: MAG0bJ-11n0
+  [Elem 10] (LBPQD0Rjg364TLwB):
+    - Text: MAG0eshkJ_I
+    - Image ID: MAG0eshkJ_I
+
+--- Section 2 (Slide ID: PBSHLDVTNQ6qS291, Page Num: N/A) ---
+Number of elements: 9
+  [Elem 0] (LBP8YdsbC19kdxfp):
+    - Text: MAG0bb77JKI
+    - Image ID: MAG0bb77JKI
+  [Elem 1] (LBHGVBVM4MJYJ6wV):
+    - Text: MAG0bbH-WkM
+    - Image ID: MAG0bbH-WkM
+  [Elem 2] (LBnG3DvLWKXsJZt6):
+    - Text: MAG0bb6ED58
+    - Image ID: MAG0bb6ED58
+  [Elem 3] (LBNw0VJnPVXz4KnG):
+    - Text: MAG0bZVPbHs
+    - Image ID: MAG0bZVPbHs
+  [Elem 4] (LB1w81y33plL0MPB):
+    - Text: MAG0bT4Fqqk
+    - Image ID: MAG0bT4Fqqk
+  [Elem 5] (LBKWblVhztvhRr8s):
+    - Text: MAG0bRvamtw
+    - Image ID: MAG0bRvamtw
+  [Elem 6] (LBhFjMjH83k21DR7):
+    - Text: MAG0bXFfPG8
+    - Image ID: MAG0bXFfPG8
+  [Elem 7] (LB9BhX2DrYsbsd63):
+    - Text: MAG0bYNk9_4
+    - Image ID: MAG0bYNk9_4
+  [Elem 8] (LBkbkpBpVxkSsCmJ):
+    - Text: MAG0awV7_ro
+    - Image ID: MAG0awV7_ro
+    - Link: https://wa.me/5212282206491
+
+--- Section 3 (Slide ID: PBz7LGzGFxymXcrk, Page Num: 2) ---
+Number of elements: 9
+  [Elem 0] (LBNNxTr3JJvGZjjD):
+    - Text: MAG0bOOVW5c
+    - Image ID: MAG0bOOVW5c
+  [Elem 1] (LBKDtL1lYfrsyZVT):
+    - Text: MAG0bGrv5Ak
+    - Image ID: MAG0bGrv5Ak
+  [Elem 2] (LBld364K17V4s9LC):
+    - Text: MAG0bB8GEkM
+    - Image ID: MAG0bB8GEkM
+  [Elem 3] (LBwlXNrDg1hcRf7b):
+    - Text: MAG0bBLlO1E
+    - Image ID: MAG0bBLlO1E
+  [Elem 4] (LBsWDHN7dXQhYwKC):
+    - Text: MAG0bNozcec
+    - Image ID: MAG0bNozcec
+  [Elem 5] (LB66y78KVCXdTrnb):
+    - Text: MAG0bK2LGzY
+    - Image ID: MAG0bK2LGzY
+  [Elem 6] (LB5r38CKmFHjNq37):
+    - Text: MAG0bBn4SH4
+    - Image ID: MAG0bBn4SH4
+  [title] (LBjzHtqZdFWjJ0kj):
+    - Text: Servicios de construcciÃ³n
+  [Elem 8] (LB1jS9MTLh0YTHDY):
+    - Text: MAG0awV7_ro
+    - Image ID: MAG0awV7_ro
+    - Link: https://wa.me/5212282206491
+
+--- Section 4 (Slide ID: PBFtMrcjyHh5JCzl, Page Num: 3) ---
+Number of elements: 14
+  [Elem 0] (LBX1JcW33kb5P9yh):
+    - Text: MAEb4gQnL8Y
+    - Image ID: MAEb4gQnL8Y
+  [Elem 1] (LB36g3ysxP23G5w5):
+    - Text: proyectos@scipue.com
+  [Elem 2] (LB6CH21QKpypdgZb):
+    - Text: M470.64,423.58c12.65,0,23-10.35,23-23V18.74c0-12.65-10.13-20.86-22.5-18.25l-455,95.97  C3.76,99.07-2.94,110.97,1.25,122.91l97.84,278.96c4.19,11.94,17.96,21.7,30.61,21.7L470.64,423.58L470.64,423.58z
+  [Elem 3] (LB76hM7gC51c1FKZ):
+    - Text: M470.64,423.58c12.65,0,23-10.35,23-23V18.74c0-12.65-10.13-20.86-22.5-18.25l-455,95.97  C3.76,99.07-2.94,110.97,1.25,122.91l97.84,278.96c4.19,11.94,17.96,21.7,30.61,21.7L470.64,423.58L470.64,423.58z
+  [Elem 4] (LBtyQdHXrsJFpBw7):
+    - Text: MAG0bKeP8Yw
+    - Image ID: MAG0bKeP8Yw
+  [Elem 5] (LB0VjZcqccvYSzJ4):
+    - Text: MAG0bBrxhts
+    - Image ID: MAG0bBrxhts
+  [Elem 6] (LB4yyGrT4PR63QTD):
+    - Text: MAG0awV7_ro
+    - Image ID: MAG0awV7_ro
+    - Link: https://wa.me/5212282206491
+  [Elem 7] (LB4DfYMNbLG6Btm0):
+    - Text: MAG0awV7_ro
+    - Image ID: MAG0awV7_ro
+    - Link: https://wa.me/5212282206491
+  [Elem 8] (LBM0CmCvw7RSgfx4):
+    - Text: MAG0bfwNI4Y
+    - Image ID: MAG0bfwNI4Y
+  [Elem 9] (LByRS6KzRlbqgZBF):
+    - Text: MAG0bgNXWFY
+    - Image ID: MAG0bgNXWFY
+  [Elem 10] (LB3rTLPNMGMSMQNX):
+    - Text: MAG0bnHN6xQ
+    - Image ID: MAG0bnHN6xQ
+  [Elem 11] (LBlhNNrpnZYfsGDh):
+    - Text: MAG0bi1FHVU
+    - Image ID: MAG0bi1FHVU
+    - Link: https://wa.me/5212282206491
+  [subtitle] (LBwhrLKgCGqjByhX):
+    - Text: ESTAMOS PARA SERVIRTE EN NUESTROS MEDIOS DE CONTACTO
+  [title] (LBJHjbFrnK49GN5Q):
+    - Text: Â¡CONTACTANOS AHORA Y VUELVE REALIDAD ESE PROYECTO SOÃADO!
