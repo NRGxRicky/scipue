@@ -30,6 +30,7 @@ package-lock.json
 # Output directory
 dist/
 .astro/
+powered-hq.onrender.com/
 
 # IDEs and editors
 .idea/
