@@ -17,12 +17,12 @@
     </a>
 
     <!-- Desktop Navigation Links -->
-    <nav class="hidden md:flex items-center gap-8">
-      <a href="#inicio" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Inicio</a>
-      <a href="#servicios" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Servicios</a>
-      <a href="#construccion" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Construcción</a>
-      <a href="#clientes" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Clientes</a>
-      <a href="#contacto" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Contacto</a>
+    <nav class="hidden md:flex items-center gap-8 h-full">
+      <a href="#inicio" class="text-sm font-medium text-slate-300 hover:text-white transition-colors h-full flex items-center relative nav-link" data-section="inicio">Inicio</a>
+      <a href="#servicios" class="text-sm font-medium text-slate-300 hover:text-white transition-colors h-full flex items-center relative nav-link" data-section="servicios">Servicios</a>
+      <a href="#construccion" class="text-sm font-medium text-slate-300 hover:text-white transition-colors h-full flex items-center relative nav-link" data-section="construccion">Construcción</a>
+      <a href="#clientes" class="text-sm font-medium text-slate-300 hover:text-white transition-colors h-full flex items-center relative nav-link" data-section="clientes">Clientes</a>
+      <a href="#contacto" class="text-sm font-medium text-slate-300 hover:text-white transition-colors h-full flex items-center relative nav-link" data-section="contacto">Contacto</a>
     </nav>
 
     <!-- Desktop Action Buttons -->
@@ -50,11 +50,11 @@
 
   <!-- Mobile Navigation Panel -->
   <div id="mobile-menu" class="hidden md:hidden glass border-t border-white/5 absolute top-20 left-0 w-full flex flex-col py-6 px-6 gap-4">
-    <a href="#inicio" class="text-base font-medium text-slate-300 hover:text-white transition-colors py-2 mobile-link">Inicio</a>
-    <a href="#servicios" class="text-base font-medium text-slate-300 hover:text-white transition-colors py-2 mobile-link">Servicios</a>
-    <a href="#construccion" class="text-base font-medium text-slate-300 hover:text-white transition-colors py-2 mobile-link">Construcción</a>
-    <a href="#clientes" class="text-base font-medium text-slate-300 hover:text-white transition-colors py-2 mobile-link">Clientes</a>
-    <a href="#contacto" class="text-base font-medium text-slate-300 hover:text-white transition-colors py-2 mobile-link">Contacto</a>
+    <a href="#inicio" class="text-base font-medium text-slate-300 hover:text-white transition-colors py-2 mobile-link nav-link" data-section="inicio">Inicio</a>
+    <a href="#servicios" class="text-base font-medium text-slate-300 hover:text-white transition-colors py-2 mobile-link nav-link" data-section="servicios">Servicios</a>
+    <a href="#construccion" class="text-base font-medium text-slate-300 hover:text-white transition-colors py-2 mobile-link nav-link" data-section="construccion">Construcción</a>
+    <a href="#clientes" class="text-base font-medium text-slate-300 hover:text-white transition-colors py-2 mobile-link nav-link" data-section="clientes">Clientes</a>
+    <a href="#contacto" class="text-base font-medium text-slate-300 hover:text-white transition-colors py-2 mobile-link nav-link" data-section="contacto">Contacto</a>
     <hr class="border-white/5 my-2" />
     <a 
       href="https://wa.me/5212282206491" 
@@ -69,6 +69,30 @@
     </a>
   </div>
 </header>
+
+<style>
+  /* Underline active style for desktop */
+  @media (min-width: 768px) {
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: var(--color-brand-blue);
+      transition: width 0.3s ease;
+    }
+    
+    .nav-link.active::after {
+      width: 100%;
+    }
+  }
+
+  .nav-link.active {
+    color: white;
+  }
+</style>
 
 <script>
   const btn = document.getElementById('mobile-menu-btn');
@@ -99,4 +123,36 @@
       }
     }
   });
+
+  // Scroll Spy Logic
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-link');
+
+  function scrollSpy() {
+    let currentSectionId = '';
+    
+    // Find the section that currently occupies the viewport center
+    const scrollPosition = window.scrollY + 200; // Offset to trigger active state earlier
+    
+    sections.forEach((section) => {
+      const sectionTop = (section as HTMLElement).offsetTop;
+      const sectionHeight = (section as HTMLElement).offsetHeight;
+      
+      if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+        currentSectionId = section.getAttribute('id') || '';
+      }
+    });
+
+    if (currentSectionId) {
+      navLinks.forEach((link) => {
+        link.classList.remove('active');
+        if (link.getAttribute('data-section') === currentSectionId) {
+          link.classList.add('active');
+        }
+      });
+    }
+  }
+
+  window.addEventListener('scroll', scrollSpy);
+  window.addEventListener('DOMContentLoaded', scrollSpy);
 </script>

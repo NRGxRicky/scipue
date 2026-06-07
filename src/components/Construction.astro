@@ -3,42 +3,49 @@ const projects = [
   {
     title: "Estructuras Metálicas y Naves",
     category: "Obra Estructural",
+    catId: "estructural",
     img: "/assets/e82c479fc21540c16cd008b41d7bfedc.png",
     description: "Diseño, fabricación y montaje de estructuras de acero y naves industriales a gran escala."
   },
   {
     title: "Cimentaciones Especiales",
     category: "Obra Civil",
+    catId: "civil",
     img: "/assets/2159453c2e5be8fb01460def75da95cf.png",
     description: "Cimentación para maquinaria pesada, zapatas estructurales y muros de contención."
   },
   {
     title: "Edificaciones y Oficinas",
     category: "Edificación",
+    catId: "edificacion",
     img: "/assets/4dac2cd716007b2de2301efb1cf54399.png",
     description: "Construcción y adecuación de espacios corporativos, casetas de control y áreas comunes."
   },
   {
     title: "Techumbres y Cubiertas",
-    category: "Acabados",
+    category: "Obra Estructural",
+    catId: "estructural",
     img: "/assets/b5e344a25d3d7b986b94188204345375.png",
     description: "Suministro e instalación de láminas traslúcidas, termoacústicas y sistemas de desagüe pluvial."
   },
   {
     title: "Mantenimiento Estructural",
-    category: "Mantenimiento",
+    category: "Obra Estructural",
+    catId: "estructural",
     img: "/assets/f8247acae2920dc809d21831f0623edb.png",
     description: "Refuerzo de columnas, aplicación de pintura intumescente y reparación de estructuras metálicas."
   },
   {
     title: "Pisos de Concreto Industrial",
-    category: "Pisos",
+    category: "Obra Civil",
+    catId: "civil",
     img: "/assets/9c06542753f8e315bb9b15dbc5c7b5e4.png",
     description: "Colado de pisos de concreto de alta resistencia con acabados pulidos y epóxicos."
   },
   {
     title: "Supervisión y Control de Obra",
-    category: "Ingeniería",
+    category: "Edificación",
+    catId: "edificacion",
     img: "/assets/272fcbefd7c0214587e585823c008d48.png",
     description: "Control de calidad en obra civil, levantamientos y apego a bitácoras de construcción."
   }
@@ -53,7 +60,7 @@ const projects = [
   <div class="max-w-7xl mx-auto px-6 relative z-10">
     
     <!-- Section Header -->
-    <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 reveal">
       <div class="max-w-2xl text-left">
         <h2 class="text-xs font-semibold text-brand-blue uppercase tracking-widest mb-3">Infraestructura</h2>
         <h3 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-4 font-display">
@@ -77,12 +84,44 @@ const projects = [
       </div>
     </div>
 
+    <!-- Category Filters Toolbar -->
+    <div class="flex flex-wrap items-center justify-start gap-3 mb-10 reveal" style="transition-delay: 100ms;">
+      <button 
+        class="filter-btn active px-4 py-2 text-xs font-semibold rounded-lg border border-white/5 bg-slate-900 text-white hover:bg-slate-800 transition-all cursor-pointer" 
+        data-filter="all"
+      >
+        Todos
+      </button>
+      <button 
+        class="filter-btn px-4 py-2 text-xs font-semibold rounded-lg border border-white/5 bg-slate-900/40 text-slate-400 hover:text-white hover:bg-slate-800 transition-all cursor-pointer" 
+        data-filter="civil"
+      >
+        Obra Civil
+      </button>
+      <button 
+        class="filter-btn px-4 py-2 text-xs font-semibold rounded-lg border border-white/5 bg-slate-900/40 text-slate-400 hover:text-white hover:bg-slate-800 transition-all cursor-pointer" 
+        data-filter="estructural"
+      >
+        Obra Estructural
+      </button>
+      <button 
+        class="filter-btn px-4 py-2 text-xs font-semibold rounded-lg border border-white/5 bg-slate-900/40 text-slate-400 hover:text-white hover:bg-slate-800 transition-all cursor-pointer" 
+        data-filter="edificacion"
+      >
+        Edificación e Ingeniería
+      </button>
+    </div>
+
     <!-- Bento/Portfolio Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 reveal" style="transition-delay: 200ms;">
       {projects.map((project, index) => {
+        // Let the first and fifth projects span columns on larger screens for visual hierarchy
         const isFeatured = index === 0 || index === 4;
         return (
-          <div class={`group relative rounded-xl bg-slate-900 border border-slate-800/80 overflow-hidden hover:border-brand-blue/30 transition-all duration-500 flex flex-col justify-between ${isFeatured ? 'lg:col-span-2' : ''}`}>
+          <div 
+            class={`project-card group relative rounded-xl bg-slate-900 border border-slate-800/80 overflow-hidden hover:border-brand-blue/30 transition-all duration-500 flex flex-col justify-between ${isFeatured ? 'lg:col-span-2' : ''}`}
+            data-cat={project.catId}
+          >
             
             <div class="relative w-full aspect-video md:aspect-[2/1] overflow-hidden flex-grow border-b border-white/5">
               <div class="absolute inset-0 bg-slate-950/40 z-10 group-hover:bg-slate-950/20 transition-all duration-500"></div>
@@ -116,3 +155,60 @@ const projects = [
 
   </div>
 </section>
+
+<style>
+  /* Filter Button Active styling */
+  .filter-btn.active {
+    background-color: var(--color-brand-blue);
+    border-color: var(--color-brand-blue);
+    color: white;
+  }
+
+  /* Fade-in transition for filtered cards */
+  .project-card {
+    transition: opacity 0.4s ease, transform 0.4s ease, border-color 0.3s ease;
+  }
+</style>
+
+<script>
+  // Dynamic Grid Filter Logic
+  const buttons = document.querySelectorAll('.filter-btn');
+  const cards = document.querySelectorAll('.project-card');
+
+  buttons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      // Remove active states
+      buttons.forEach((b) => {
+        b.classList.remove('active', 'bg-brand-blue', 'border-brand-blue', 'text-white');
+        b.classList.add('bg-slate-900/40', 'text-slate-400');
+      });
+
+      // Add active state to clicked button
+      btn.classList.add('active', 'bg-brand-blue', 'border-brand-blue', 'text-white');
+      btn.classList.remove('bg-slate-900/40', 'text-slate-400');
+
+      const filterVal = btn.getAttribute('data-filter');
+
+      cards.forEach((card) => {
+        const cardCat = card.getAttribute('data-cat');
+        const element = card as HTMLElement;
+
+        if (filterVal === 'all' || cardCat === filterVal) {
+          // Show with transition
+          element.classList.remove('hidden');
+          setTimeout(() => {
+            element.style.opacity = '1';
+            element.style.transform = 'scale(1)';
+          }, 20);
+        } else {
+          // Hide with transition
+          element.style.opacity = '0';
+          element.style.transform = 'scale(0.95)';
+          setTimeout(() => {
+            element.classList.add('hidden');
+          }, 300); // Match CSS transition duration
+        }
+      });
+    });
+  });
+</script>
